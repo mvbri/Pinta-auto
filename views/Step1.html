@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Pana</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    <header class="header">
+        <img src="../assets/images/logo.png">
+    </header>
+    <main class="container-fluid">
+        <h2 class="h2">Seleccione los paños en cada círculo de la imagen</h2>
+        <div class="flex-row">
+            <div class="sm-100 md-50 lg-40 xl-30">
+                <div class="menu">
+                    <div class="menu-header">
+                        <div class="step active">
+                            <button class="btn" type="button">1</button>
+                            Selecciona <br>las partes
+                        </div>
+                        <div class="step">
+                            <button class="btn" type="button">2</button>
+                            Tipos de <br> servicio
+                        </div>
+                        <div class="step">
+                            <button class="btn" type="button">3</button>
+                            Cotiza <br>tu auto
+                        </div>
+                    </div>
+                    <div class="menu-body">
+                        <div class="flex-row justify-between">
+                            <h5 class="text-bold">Tamaño de la SUV</h5>
+                            <div class="justify-between">
+                                <span>
+                                    <label class="label text-bold">S</label>
+                                    <input type="radio" name="tamañoSUV" id="s" checked/>
+                                </span>
+                                <span>
+                                    <label class="label text-bold">M</label>
+                                    <input type="radio" name="tamañoSUV" id="m"/>
+                                </span>
+                                <span>
+                                    <label class="label text-bold">L</label>
+                                    <input type="radio" name="tamañoSUV" id="l"/>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-end">
+                            <div class="justify-center">
+                                <span class="highlight">Pintado general</span>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-end">
+                            <div class="justify-between">
+                                <input type="radio" name="pintado" id="1"/>
+                                <input type="radio" name="pintado" id="2"/>
+                                <input type="radio" name="pintado" id="3"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-start">
+                            <h4>Partes del auto</h4>
+                        </div>
+                        <div class="flex-row justify-end">
+                            <div class="justify-between">
+                                <label class="label text-bold">Leve</label>
+                                <label class="label text-bold">Moderado</label>
+                                <label class="label text-bold">Grave</label>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">1. Guardafando delandetero copiloto</h5>
+                            <div class="justify-between">
+                                <input type="radio" name="1" id="l"/>
+                                <input type="radio" name="1" id="m"/>
+                                <input type="radio" name="1" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">2. Puerta delandetero copiloto</h5>
+                            <div class="justify-between">
+                                <input type="radio"  name="2" id="l"/>
+                                <input type="radio" name="2" id="m"/>
+                                <input type="radio" name="2" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">3. Puerta trasera copiloto</h5>
+                            <div class="justify-between">
+                                <input type="radio" name="3" id="l"/>
+                                <input type="radio" name="3" id="m"/>
+                                <input type="radio" name="3" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">4. Guardafando trasero copiloto</h5>
+                            <div class="justify-between">
+                                <input type="radio" name="4" id="l"/>
+                                <input type="radio" name="4" id="m"/>
+                                <input type="radio" name="4" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">5. Parachoque trasero</h5>
+                            <div class="justify-between">
+                                <input type="radio" name="5" id="l"/>
+                                <input type="radio" name="5" id="m"/>
+                                <input type="radio" name="5" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">6. Guardafando trasero piloto</h5>
+                            <div class="justify-between">
+                                <input type="radio" name="6" id="l"/>
+                                <input type="radio" name="6" id="m"/>
+                                <input type="radio" name="6" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">7. Puerta trasera piloto</h5>
+                            <div class="justify-between">
+                                <input type="radio" name="7" id="l"/>
+                                <input type="radio" name="7" id="m"/>
+                                <input type="radio" name="7" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">8. Puerta delandetera piloto</h5>
+                            <div class="justify-between">
+                                <input type="radio" name="8" id="l"/>
+                                <input type="radio" name="8" id="m"/>
+                                <input type="radio" name="8" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5>9. Guardafando delantero piloto</h5>
+                            <div class="justify-between">
+                                <input type="radio" name="9" id="l" checked/>
+                                <input type="radio" name="9" id="m"/>
+                                <input type="radio" name="9" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">10. Parachoque delantero</h5>
+                            <div class="justify-between">
+                                <input type="radio" name="10" id="l"/>
+                                <input type="radio" name="10" id="m"/>
+                                <input type="radio" name="10" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5>11. Capot</h5>
+                            <div class="justify-between">
+                                <input type="radio" name="11" id="l"/>
+                                <input type="radio" name="11" id="m" checked/>
+                                <input type="radio" name="11" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">12. Techo</h5>
+                            <div class="justify-between">
+                                <input type="radio" name="12" id="l"/>
+                                <input type="radio" name="12" id="m"/>
+                                <input type="radio" name="12" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">13. Maletera</h5>
+                            <div class="justify-between">
+                                <input type="radio" name="12" id="l"/>
+                                <input type="radio" name="12" id="m"/>
+                                <input type="radio" name="12" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row w-auto">
+                            <div>
+                                <button class="btn" type="button">Calcular precio</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="disclaimer">
+                    *Pintado con pintura automotriz poliuretana bicapa Sherwin Williams (procedencia americana) en cabina de pintura. *El precio del planchado es referencial de acuerdo al daño seleccionado.
+                </div>
+            </div>
+            <div class="sm-100 md-50 lg-60 xl-70">
+                <div class="car-selector-wrapper">
+                    <div class="flex-row justify-between">
+                        <h2>Piloto</h2>
+                        <h2>Copiloto</h2>
+                    </div>
+                    <div class="car-selector">
+                        <img src="../assets/images/sedan.svg" class="preview-sedan" />
+                        <img src="../assets/images/pickup.svg" class="preview-pickup" />
+                        <img src="../assets/images/hatchback.svg" class="preview-hatchback" />
+                        <img src="../assets/images/suv.svg" class="preview-suv" />
+                        <div class="selector" data-selector="1">
+                            <button class="btn">1</button>
+                            <h5>Guardafando<br>delandetero</h5>
+                        </div>
+                        <div class="selector" data-selector="2">
+                            <button class="btn">2</button>
+                            <h5>Puerta<br>delandetera</h5>
+                        </div>
+                        <div class="selector" data-selector="3">
+                            <button class="btn">3</button>
+                            <h5>Puerta<br>trasera</h5>
+                        </div>
+                        <div class="selector" data-selector="4">
+                            <button class="btn">4</button>
+                            <h5>Guardafando<br>trasero</h5>
+                        </div>
+                        <div class="selector" data-selector="5">
+                            <button class="btn">5</button>
+                            <h5>Parachoque<br>trasero</h5>
+                        </div>
+                        <div class="selector" data-selector="6">
+                            <button class="btn">6</button>
+                            <h5>Guardafando<br>trasero</h5>
+                        </div>
+                        <div class="selector" data-selector="7">
+                            <button class="btn">7</button>
+                            <h5>Puerta<br>trasera</h5>
+                        </div>
+                        <div class="selector" data-selector="8">
+                            <button class="btn">8</button>
+                            <h5>Puerta<br>delandetera</h5>
+                        </div>
+                        <div class="selector active" data-selector="9">
+                            <button class="btn">9</button>
+                            <h5>Guardafando<br>delandetero</h5>
+                        </div>
+                        <div class="selector" data-selector="10">
+                            <button class="btn">10</button>
+                            <h5>Parachoque<br>delatero</h5>
+                        </div>
+                        <div class="selector active" data-selector="11">
+                            <button class="btn">11</button>
+                            <h5>Capot</h5>
+                        </div>
+                        <div class="selector" data-selector="12">
+                            <button class="btn">12</button>
+                            <h5>Techo</h5>
+                        </div>
+                        <div class="selector" data-selector="13">
+                            <button class="btn">13</button>
+                            <h5>Maletera</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="flex-row align-center justify-center">
+            <h3 class="h3">Síguenos:</h3>
+            <a><img alt="facebook" src="../assets/images/facebook.png"/></a>
+            <a><img alt="instagram" src="../assets/images/instagram.png"/></a>
+        </div>
+        <div class="flex-row sm-text-center">
+            <div class="sm-100 grow-1">Copyright © Ampay MKT S.A.C.<span class="sm-block">Todos los derechos reservados.</span></div>
+            <div class="sm-100">Términos y condiciones</div>
+        </div>
+    </footer>
+</body>
+</html>

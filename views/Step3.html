@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Pana</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    <header class="header">
+        <img src="../assets/images/logo.png">
+    </header>
+    <main class="container-fluid">
+        <h2 class="h2">Seleccione los paños en cada círculo de la imagen</h2>
+        <div class="flex-row">
+            <div class="sm-100 md-50 lg-40 xl-30">
+                <div class="menu">
+                    <div class="menu-header">
+                        <div class="step">
+                            <button class="btn" type="button">1</button>
+                            Selecciona <br>las partes
+                        </div>
+                        <div class="step">
+                            <button class="btn" type="button">2</button>
+                            Tipos de <br> servicio
+                        </div>
+                        <div class="step active">
+                            <button class="btn" type="button">3</button>
+                            Cotiza <br>tu auto
+                        </div>
+                    </div>
+                    <div class="menu-body">
+                        <h4 class="text-center">Llena tus datos para poder<br>realizar la cotización</h4>
+                        <div class="flex-row w-auto justify-center">
+                            <div>
+                                <div class="input-group">
+                                    <label class="label">Nombre:</label>
+                                    <input type="text"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-row w-auto justify-center">
+                            <div>
+                                <div class="input-group">
+                                    <label class="label">Teléfono:</label>
+                                    <input type="tel">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-row w-auto justify-center">
+                            <h5 class="h5">Según lo marcado el precio es:</h5>
+                        </div>
+                        <h2 class="h2 text-bold text-center">S/ 99,999</h2>
+                        <div class="flex-row w-auto justify-center">
+                            <div>
+                                <button class="btn" type="button">Calcular precio</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="disclaimer">
+                    *Pintado con pintura automotriz poliuretana bicapa Sherwin Williams (procedencia americana) en cabina de pintura. *El precio del planchado es referencial de acuerdo al daño seleccionado.
+                </div>
+            </div>
+            <div class="sm-100 md-50 lg-60 xl-70">
+                <div class="car-selector-wrapper">
+                    <div class="flex-row justify-between">
+                        <h2>Piloto</h2>
+                        <h2>Copiloto</h2>
+                    </div>
+                    <div class="car-selector">
+                        <img src="../assets/images/sedan-topview.png" />
+                        <div class="selector" data-selector="1">
+                            <button class="btn">1</button>
+                            <h5>Guardafando<br>delandetero</h5>
+                        </div>
+                        <div class="selector" data-selector="2">
+                            <button class="btn">2</button>
+                            <h5>Puerta<br>delandetera</h5>
+                        </div>
+                        <div class="selector" data-selector="3">
+                            <button class="btn">3</button>
+                            <h5>Puerta<br>trasera</h5>
+                        </div>
+                        <div class="selector" data-selector="4">
+                            <button class="btn">4</button>
+                            <h5>Guardafando<br>trasero</h5>
+                        </div>
+                        <div class="selector" data-selector="5">
+                            <button class="btn">5</button>
+                            <h5>Parachoque<br>trasero</h5>
+                        </div>
+                        <div class="selector" data-selector="6">
+                            <button class="btn">6</button>
+                            <h5>Guardafando<br>trasero</h5>
+                        </div>
+                        <div class="selector" data-selector="7">
+                            <button class="btn">7</button>
+                            <h5>Puerta<br>trasera</h5>
+                        </div>
+                        <div class="selector" data-selector="8">
+                            <button class="btn">8</button>
+                            <h5>Puerta<br>delandetera</h5>
+                        </div>
+                        <div class="selector active" data-selector="9">
+                            <button class="btn">9</button>
+                            <h5>Guardafando<br>delandetero</h5>
+                        </div>
+                        <div class="selector" data-selector="10">
+                            <button class="btn">10</button>
+                            <h5>Parachoque<br>delatero</h5>
+                        </div>
+                        <div class="selector active" data-selector="11">
+                            <button class="btn">11</button>
+                            <h5>Capot</h5>
+                        </div>
+                        <div class="selector" data-selector="12">
+                            <button class="btn">12</button>
+                            <h5>Techo</h5>
+                        </div>
+                        <div class="selector" data-selector="13">
+                            <button class="btn">13</button>
+                            <h5>Maletera</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="flex-row align-center justify-center">
+            <h3 class="h3">Síguenos:</h3>
+            <a><img alt="facebook" src="../assets/images/facebook.png"/></a>
+            <a><img alt="instagram" src="../assets/images/instagram.png"/></a>
+        </div>
+        <div class="flex-row sm-text-center">
+            <div class="sm-100 grow-1">Copyright © Ampay MKT S.A.C.<span class="sm-block">Todos los derechos reservados.</span></div>
+            <div class="sm-100">Términos y condiciones</div>
+        </div>
+    </footer>
+</body>
+</html>

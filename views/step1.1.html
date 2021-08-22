@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Pana</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+</head>
+<body>
+    <header class="header">
+        <img src="../assets/images/logo.png">
+    </header>
+    <main class="container-fluid">
+        <h2 class="h2">Seleccione los paños en cada círculo de la imagen</h2>
+        <div class="flex-row">
+            <div class="sm-100 md-50 lg-40 xl-30 contenedor-menu selector_flex">
+                <div class="menu">
+                    <div class="menu-header">
+                        <div class="step active">
+                            <button class="btn" type="button">1</button>
+                            Selecciona <br>las partes
+                        </div>
+                        <div class="step">
+                            <a href="step2.1.html"><button class="btn" type="button">2</button></a>
+                            Tipos de <br> servicio
+                        </div>
+                        <div class="step">
+                           <a href="step3.1.html"><button class="btn" type="button">3</button></a> 
+                            Cotiza <br>tu auto
+                        </div>
+                    </div>
+                    <div class="menu-body">
+                        <div class="flex-row justify-between">
+                            <h5 class="text-bold">Tamaño de la SUV</h5>
+                            <div class="justify-space-evenly">
+                                <span>
+                                    <label class="label text-bold">S</label>
+                                    <input type="radio" name="tamañoSUV" id="s" checked/>
+                                </span>
+                                <span>
+                                    <label class="label text-bold">M</label>
+                                    <input type="radio" name="tamañoSUV" id="m"/>
+                                </span>
+                                <span>
+                                    <label class="label text-bold">L</label>
+                                    <input type="radio" name="tamañoSUV" id="l"/>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-end">
+                            <div class="justify-center">
+                                <span class="highlight">Pintado general</span>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-end pintado_general">
+                            <div class="justify-space-evenly">
+                                <input type="radio" name="pintado" id="1"/>
+                                <input type="radio" name="pintado" id="2"/>
+                                <input type="radio" name="pintado" id="3"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-start">
+                            <h4>Partes del auto</h4>
+                        </div>
+                        <div class="flex-row justify-end">
+                            <div class="justify-space-evenly">
+                                <label class="label text-bold">Leve</label>
+                                <label class="label text-bold">Moderado</label>
+                                <label class="label text-bold">Grave</label>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">1. Guardafando delandetero copiloto</h5>
+                            <div class="justify-space-evenly">
+                                <input type="radio" name="1" id="l"/>
+                                <input type="radio" name="1" id="m"/>
+                                <input type="radio" name="1" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">2. Puerta delandetero copiloto</h5>
+                            <div class="justify-space-evenly">
+                                <input type="radio"  name="2" id="l"/>
+                                <input type="radio" name="2" id="m"/>
+                                <input type="radio" name="2" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">3. Puerta trasera copiloto</h5>
+                            <div class="justify-space-evenly">
+                                <input type="radio" name="3" id="l"/>
+                                <input type="radio" name="3" id="m"/>
+                                <input type="radio" name="3" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">4. Guardafando trasero copiloto</h5>
+                            <div class="justify-space-evenly">
+                                <input type="radio" name="4" id="l"/>
+                                <input type="radio" name="4" id="m"/>
+                                <input type="radio" name="4" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-justify-space-evenly">5. Parachoque trasero</h5>
+                            <div class="justify-space-evenly">
+                                <input type="radio" name="5" id="l"/>
+                                <input type="radio" name="5" id="m"/>
+                                <input type="radio" name="5" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">6. Guardafando trasero piloto</h5>
+                            <div class="justify-space-evenly">
+                                <input type="radio" name="6" id="l"/>
+                                <input type="radio" name="6" id="m"/>
+                                <input type="radio" name="6" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">7. Puerta trasera piloto</h5>
+                            <div class="justify-space-evenly">
+                                <input type="radio" name="7" id="l"/>
+                                <input type="radio" name="7" id="m"/>
+                                <input type="radio" name="7" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">8. Puerta delandetera piloto</h5>
+                            <div class="justify-space-evenly">
+                                <input type="radio" name="8" id="l"/>
+                                <input type="radio" name="8" id="m"/>
+                                <input type="radio" name="8" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5>9. Guardafando delantero piloto</h5>
+                            <div class="justify-space-evenly">
+                                <input type="radio" name="9" id="l" checked/>
+                                <input type="radio" name="9" id="m"/>
+                                <input type="radio" name="9" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">10. Parachoque delantero</h5>
+                            <div class="justify-space-evenly">
+                                <input type="radio" name="10" id="l"/>
+                                <input type="radio" name="10" id="m"/>
+                                <input type="radio" name="10" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5>11. Capot</h5>
+                            <div class="justify-space-evenly">
+                                <input type="radio" name="11" id="l"/>
+                                <input type="radio" name="11" id="m" checked/>
+                                <input type="radio" name="11" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">12. Techo</h5>
+                            <div class="justify-space-evenly">
+                                <input type="radio" name="12" id="l"/>
+                                <input type="radio" name="12" id="m"/>
+                                <input type="radio" name="12" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row justify-between">
+                            <h5 class="text-light text-gray">13. Maletera</h5>
+                            <div class="justify-space-evenly">
+                                <input type="radio" name="12" id="l"/>
+                                <input type="radio" name="12" id="m"/>
+                                <input type="radio" name="12" id="g"/>
+                            </div>
+                        </div>
+                        <div class="flex-row w-auto">
+                            <div>
+                                <button class="btn btn_calcular_precio_p1" type="button">Calcular precio</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="disclaimer">
+                    *Pintado con pintura automotriz poliuretana bicapa Sherwin Williams (procedencia americana) en cabina de pintura. *El precio del planchado es referencial de acuerdo al daño seleccionado.
+                </div>
+            </div>
+            <div class="sm-100 md-50 lg-60 xl-70">
+                <div class="car-selector-wrapper">
+                    <div class="flex-row justify-between piloto-copiloto">
+                        <h2>Piloto</h2>
+                        <h2>Copiloto</h2>
+                    </div>
+                    <div class="car-selector">
+                        <svg class="preview-pickup" width="579" height="1429" viewBox="0 0 579 1429" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M285.912 0.0276544C285.912 0.0276544 107.612 -2.07236 42.9116 67.8276C29.4116 82.4276 22.1114 101.828 21.7114 121.728L18.6116 301.128C18.5116 309.328 19.5116 317.428 21.6116 325.228L25.7114 340.228C29.8114 355.328 31.9116 370.828 31.9116 386.428L32.6116 813.628L36.4116 909.228C36.7116 916.928 39.9116 924.228 45.4116 929.728C33.7116 938.628 26.3116 952.028 24.9116 966.728C20.4116 1014.63 12.5114 1127.63 28.2114 1219.13C29.0114 1223.83 29.5116 1228.63 29.6116 1233.43L31.2114 1357.53C31.7114 1373.53 36.3116 1389.13 44.4116 1402.83L49.9116 1412.03C55.9116 1422.23 66.9115 1428.53 78.8115 1428.53H499.012C512.312 1428.53 524.512 1421.03 530.512 1409.23C538.912 1392.63 543.412 1374.33 543.512 1355.63L544.312 1233.93L552.611 1201.83C558.411 1179.23 561.212 1155.93 561.012 1132.53L559.611 1007.43C559.411 991.428 557.211 975.628 553.111 960.128L553.012 959.628C549.912 948.228 543.311 938.228 534.211 930.928L532.412 929.528C537.912 923.128 540.912 915.028 541.012 906.528L544.312 394.528C544.411 378.128 546.911 361.728 551.611 346.028L556.912 328.528C558.512 323.328 559.312 318.028 559.312 312.628V116.128C559.012 116.128 568.212 -2.07235 285.912 0.0276544Z" fill="#E2DFE6"/>
+                            <path d="M286.311 30.9277C286.311 30.9277 124.511 28.9277 65.8115 96.0277C53.5115 110.128 46.9115 128.728 46.6115 147.828L43.8115 320.128C43.7115 327.928 44.6114 335.728 46.5114 343.328L50.2114 357.728C53.9114 372.228 55.8115 387.128 55.8115 402.128L56.4116 812.428L59.8115 904.228C60.1115 911.628 63.0116 918.628 67.9116 923.928C57.3116 932.528 50.6115 945.428 49.3115 959.428C45.2115 1005.43 38.1115 1113.93 52.3115 1201.83C53.0115 1206.43 53.5117 1211.03 53.5117 1215.63L54.9116 1334.83C55.4116 1350.13 59.5116 1365.13 66.9116 1378.33L71.8115 1387.23C77.3115 1397.03 87.2117 1403.03 98.0117 1403.03H479.211C491.311 1403.03 502.311 1395.83 507.811 1384.43C515.511 1368.53 519.511 1350.83 519.611 1333.03L520.412 1216.13L527.912 1185.33C533.212 1163.63 535.712 1141.23 535.512 1118.73L534.211 998.628C534.011 983.328 532.111 968.028 528.311 953.228L528.211 952.728C525.411 941.828 519.411 932.128 511.111 925.228L509.512 923.928C514.512 917.828 517.211 909.928 517.311 901.928L520.311 410.228C520.411 394.428 522.612 378.728 527.012 363.628L531.811 346.828C533.211 341.828 533.912 336.728 533.912 331.528V142.528C534.112 142.328 542.411 28.8277 286.311 30.9277Z" fill="#FBFBFB"/>
+                            <path d="M24.9117 340.628L20.8116 325.628C18.6116 317.628 17.6116 309.428 17.8116 301.228L20.9117 121.828H22.9117L19.8116 301.228C19.7116 309.328 20.7116 317.328 22.8116 325.128L26.9117 340.128L24.9117 340.628Z" fill="#669FCC"/>
+                            <path d="M98.4118 317.928C154.212 303.828 303.712 275.628 481.712 321.028C494.712 324.328 502.612 337.628 499.312 350.628L470.611 464.728C467.711 476.328 456.912 484.128 445.012 483.128C395.612 479.128 264.712 470.828 136.312 482.828C124.312 483.928 113.312 476.228 110.312 464.528L80.7116 347.628C77.4116 334.528 85.3118 321.228 98.4118 317.928Z" fill="#45474A"/>
+                            <path d="M162.612 29.2277L155.012 46.1277C152.912 50.7277 156.912 55.8277 161.912 54.9277C198.012 48.3277 310.912 31.2277 417.412 54.1277C421.712 55.0277 425.612 51.3277 424.912 46.9277L422.212 30.4277C421.812 27.8277 419.712 25.7277 417.112 25.2277C394.812 21.4277 291.012 5.92769 167.412 25.5277C165.312 25.9277 163.512 27.3277 162.612 29.2277Z" fill="#45474A"/>
+                            <path class="luces" d="M149.912 50.1276C150.612 44.6276 145.511 40.2276 140.211 41.8276C119.411 48.1276 76.8113 64.5276 61.1113 83.9276C46.1113 102.528 43.5114 114.828 44.0114 120.928C44.2114 123.128 45.5116 125.028 47.4116 126.128C48.1116 126.528 48.9114 126.228 49.2114 125.628C53.4114 118.228 71.3113 83.4276 110.111 68.0276C127.411 61.1276 137.712 59.8275 143.012 58.2275C146.712 57.1275 149.412 53.9276 149.912 50.1276Z" fill="#669FCC"/>
+                            <path class="luces" d="M429.812 50.1276C429.112 44.6276 434.212 40.2276 439.512 41.8276C460.312 48.1276 502.912 64.5276 518.612 83.9276C533.612 102.528 536.212 114.828 535.712 120.928C535.512 123.128 534.212 125.028 532.312 126.128C531.612 126.528 530.812 126.228 530.512 125.628C526.312 118.228 508.412 83.4276 469.612 68.0276C452.312 61.1276 442.012 59.8275 436.712 58.2275C433.012 57.1275 430.312 53.9276 429.812 50.1276Z" fill="#669FCC"/>
+                            <path d="M65.4116 375.828V624.928L103.611 641.228C103.611 641.128 115.712 485.428 65.4116 375.828Z" fill="#45474A"/>
+                            <path d="M65.4116 682.928V866.928C65.4116 866.928 97.6116 882.528 104.912 845.028V683.028H65.4116V682.928Z" fill="#45474A"/>
+                            <path d="M510.012 375.828V624.928L471.811 641.228C471.811 641.128 459.712 485.428 510.012 375.828Z" fill="#45474A"/>
+                            <path d="M510.012 682.928V866.928C510.012 866.928 477.812 882.528 470.512 845.028V683.028H510.012V682.928Z" fill="#45474A"/>
+                            <path d="M79.2114 980.127V1329.03C79.2114 1347.23 94.5115 1361.93 113.312 1361.93H463.111C481.911 1361.93 497.211 1347.23 497.211 1329.03V980.127C497.211 961.927 481.911 947.228 463.111 947.228H113.312C94.4115 947.228 79.2114 961.927 79.2114 980.127Z" fill="#E2DFE6"/>
+                            <path d="M54.1113 1346.63C54.1113 1346.63 63.0114 1391.03 111.711 1404.43C111.711 1404.43 94.6113 1412.03 67.1113 1390.23C67.2113 1390.23 46.8113 1367.13 54.1113 1346.63Z" fill="#F3482A"/>
+                            <path d="M519.912 1348.83C519.912 1348.83 512.311 1393.43 464.111 1408.33C464.111 1408.33 481.511 1415.53 508.211 1392.93C508.211 1392.83 527.812 1369.13 519.912 1348.83Z" fill="#F3482A"/>
+                            <path d="M40.8116 359.528C40.8116 359.528 8.41154 381.928 3.01154 392.728C-2.38846 403.528 3.01164 413.328 6.61164 412.428C10.2116 411.528 52.2115 393.628 52.2115 393.628L40.8116 359.528Z" fill="#E2DFE6"/>
+                            <path d="M538.312 359.528C538.312 359.528 570.711 381.928 576.111 392.728C581.511 403.528 576.112 413.328 572.512 412.428C568.912 411.528 526.912 393.628 526.912 393.628L538.312 359.528Z" fill="#E2DFE6"/>
+                            </svg>
+                        <div class="selector pickup" data-selector="1">
+                            <button class="btn">1</button>
+                            <h5>Guardafando<br>delandetero</h5>
+                        </div>
+                        <div class="selector pickup" data-selector="2">
+                            <button class="btn">2</button>
+                            <h5>Puerta<br>delandetera</h5>
+                        </div>
+                        <div class="selector pickup" data-selector="3">
+                            <button class="btn">3</button>
+                            <h5>Puerta<br>trasera</h5>
+                        </div>
+                        <div class="selector pickup" data-selector="4">
+                            <button class="btn">4</button>
+                            <h5>Guardafando<br>trasero</h5>
+                        </div>
+                        <div class="selector pickup" data-selector="5">
+                            <button class="btn">5</button>
+                            <h5>Parachoque<br>trasero</h5>
+                        </div>
+                        <div class="selector pickup" data-selector="6">
+                            <button class="btn">6</button>
+                            <h5>Guardafando<br>trasero</h5>
+                        </div>
+                        <div class="selector pickup" data-selector="7">
+                            <button class="btn">7</button>
+                            <h5>Puerta<br>trasera</h5>
+                        </div>
+                        <div class="selector pickup" data-selector="8">
+                            <button class="btn">8</button>
+                            <h5>Puerta<br>delandetera</h5>
+                        </div>
+                        <div class="selector active pickup" data-selector="9">
+                            <button class="btn">9</button>
+                            <h5>Guardafando<br>delandetero</h5>
+                        </div>
+                        <div class="selector pickup" data-selector="10">
+                            <button class="btn">10</button>
+                            <h5>Parachoque<br>delatero</h5>
+                        </div>
+                        <div class="selector active pickup" data-selector="11">
+                            <button class="btn">11</button>
+                            <h5>Capot</h5>
+                        </div>
+                        <div class="selector pickup" data-selector="12">
+                            <button class="btn">12</button>
+                            <h5>Techo</h5>
+                        </div>
+                        <div class="selector pickup" data-selector="13">
+                            <button class="btn">13</button>
+                            <h5>Maletera</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="flex-row align-center justify-center">
+            <h3 class="h3">Síguenos:</h3>
+            <a class="social-redes"><img alt="facebook" src="../assets/images/facebook.png"/></a>
+            <a class="social-redes"><img alt="instagram" src="../assets/images/instagram.png"/></a>
+        </div>
+        <div class="flex-row sm-text-center">
+            <div class="sm-100 grow-1">Copyright © Grupo Pana.<span class="sm-block">Todos los derechos reservados.</span></div>
+            <div class="sm-100">Términos y condiciones</div>
+        </div>
+    </footer>
+</body>
+</html>
